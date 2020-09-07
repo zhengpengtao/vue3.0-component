@@ -20,11 +20,10 @@ export default defineComponent({
   border-bottom: 1px solid #ddd;
   width: 100%;
   padding: 0 20px;
+  text-align: center;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 18px;
-  background: #336633;
-  color: #fff;
   img{
     display: inline-block;
     width: 40px;

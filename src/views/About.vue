@@ -19,7 +19,9 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, reactive, readonly, ref, watch, watchEffect, onMounted, onUpdated, onUnmounted, getCurrentInstance  } from 'vue';
+import { computed, defineComponent, reactive, readonly, ref, watch, 
+watchEffect, onMounted, onUpdated, onUnmounted, getCurrentInstance,
+provide, inject, onErrorCaptured, onRenderTracked, onRenderTriggered  } from 'vue';
 
 export default defineComponent({
   setup() {
@@ -81,6 +83,16 @@ export default defineComponent({
     // 获取当前的组件的实例
     const ctx = getCurrentInstance()
     console.log(ctx, 'ctx') 
+
+    onErrorCaptured(() => { // 错误监控 参考文章 https://zhuanlan.zhihu.com/p/37404624
+      console.log('onErrorCaptured')
+    })
+    onRenderTracked(() => { // 已渲染
+      console.log('onRenderTracked')
+    })
+    onRenderTriggered(() => { // 当组件更新时会首先触发此生命周期钩子 onRenderTriggered->onRenderTracked->onBeforeUpdate->onUpdated
+      console.log('onRenderTriggered')
+    })
     
     return {
       count,
