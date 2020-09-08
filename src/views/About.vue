@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about theme-default-content content__default">
     <div class="about-content">
       <h2>vue3.0的基础用法：</h2>
       <div class="div-line">

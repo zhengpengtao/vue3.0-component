@@ -40,7 +40,7 @@ export default defineComponent({
     {
       id: 3,
       name: 'vue3.0异步更新原理',
-      type: 'alert'
+      type: 'nextTick'
     },
     {
       id: 4,
@@ -58,6 +58,7 @@ export default defineComponent({
       'home': '/',
       'about': '/about',
       'comuse': '/comuse',
+      'nextTick': '/nextTick',
       'diff': '/diff',
     }
     const chooseItem = (item: any) => {

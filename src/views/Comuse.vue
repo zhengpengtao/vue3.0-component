@@ -18,6 +18,14 @@
     <span class="token string">&quot;packages/*&quot;</span>
 <span class="token punctuation">]</span>
 </code></pre> 
+<div class="line-numbers-wrapper">
+     <span class="line-number">1</span>
+     <br />
+     <span class="line-number">2</span>
+     <br />
+     <span class="line-number">3</span>
+     <br />
+    </div>
    </div>
    <blockquote>
     <p>通过 <code>workspaces</code> 来指定需要管理的模块</p>
@@ -30,7 +38,13 @@
    <div class="language-bash line-numbers-mode">
     <pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> lerna -g
 lerna init
-</code></pre> 
+</code></pre>
+<div class="line-numbers-wrapper">
+     <span class="line-number">1</span>
+     <br />
+     <span class="line-number">2</span>
+     <br />
+    </div> 
    </div>
    <ul>
     <li>常用命令</li>
@@ -39,7 +53,15 @@ lerna init
     <pre class="language-bash"><code>lerna bootstrap <span class="token comment">安装依赖生成软链</span>
 lerna <span class="token function">ls</span> <span class="token comment">查看所有包</span>
 lerna publish <span class="token comment">发布包</span>
-</code></pre> 
+</code></pre>
+<div class="line-numbers-wrapper">
+     <span class="line-number">1</span>
+     <br />
+     <span class="line-number">2</span>
+     <br />
+     <span class="line-number">3</span>
+     <br />
+    </div> 
    </div>
    <h2 id="三-项目结构"><a href="#三-项目结构" aria-hidden="true" class="header-anchor"></a> 三.项目结构</h2> 
    <ul>
@@ -77,7 +99,47 @@ lerna publish <span class="token comment">发布包</span>
                       |                     |    |                      |    |                   |
                       +---------------------+    +----------------------+    +-------------------+
 </code></pre> 
-    
+    <div class="line-numbers-wrapper">
+     <span class="line-number">1</span>
+     <br />
+     <span class="line-number">2</span>
+     <br />
+     <span class="line-number">3</span>
+     <br />
+     <span class="line-number">4</span>
+     <br />
+     <span class="line-number">5</span>
+     <br />
+     <span class="line-number">6</span>
+     <br />
+     <span class="line-number">7</span>
+     <br />
+     <span class="line-number">8</span>
+     <br />
+     <span class="line-number">9</span>
+     <br />
+     <span class="line-number">10</span>
+     <br />
+     <span class="line-number">11</span>
+     <br />
+     <span class="line-number">12</span>
+     <br />
+     <span class="line-number">13</span>
+     <br />
+     <span class="line-number">14</span>
+     <br />
+     <span class="line-number">15</span>
+     <br />
+     <span class="line-number">16</span>
+     <br />
+     <span class="line-number">17</span>
+     <br />
+     <span class="line-number">18</span>
+     <br />
+     <span class="line-number">19</span>
+     <br />
+     <span class="line-number">20</span>
+    </div>
    </div>
   </div>
   </div>
