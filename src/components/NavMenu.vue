@@ -27,11 +27,7 @@ export default defineComponent({
       name: '前提',
       type: 'home'
     },
-    {
-      id: 1,
-      name: 'vue3.0的基础使用',
-      type: 'about'
-    },
+
     {
       id: 2,
       name: 'vue3.0源码结构解析',
