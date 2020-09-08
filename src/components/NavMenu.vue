@@ -16,7 +16,7 @@
 <script lang="ts">
 import { defineComponent, getCurrentInstance, onMounted, ref } from 'vue';
 
-export default defineComponent({
+export default {
   setup() {
     // 如果对 对象进行解构的话，需要 将对象转换为  any 类型，否则会出错
     const { ctx } = (getCurrentInstance() as any)
@@ -68,7 +68,7 @@ export default defineComponent({
       chooseItem
     }
   }
-})
+}
 
 </script>
 
